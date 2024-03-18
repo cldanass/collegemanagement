@@ -1,0 +1,14 @@
+1/pip install -r requirements
+2/ creer un database vide dans mysql : next 
+3/ python manage.py makemigrations
+4/ python manage.py migrate
+5/ creer un admin pour acceder au site : python manage.py createsuperuser
+5/ python manage.py runserver
+
+!!!! changer le port dans settings.py ila makhdemch lik f 3306 
+
+Il y'a trois compte : Admin compte
+                      Student Compte 
+                      Staff=Prof Compte 
+
+Si tu as creer le compte Admin tu peux creer le compte de Student et Proff dans le Dashboard
